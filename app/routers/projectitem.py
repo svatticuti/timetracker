@@ -1,5 +1,3 @@
-from gc import get_debug
-from unittest import result
 from fastapi import FastAPI, Response, status, HTTPException, Depends, APIRouter
 from typing import List, Optional
 from .. import schemas, models, oauth2
