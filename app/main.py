@@ -27,4 +27,4 @@ app.include_router(projectitem.router)
 
 @app.get("/")
 async def root():
-    return {"message": "Hello there, you should not have done this."}
+    return {"message": "Hello there, welcome to project timetracker API!!!, please go to /docs for API documentation."}
